@@ -1,5 +1,8 @@
 body {
-  background-color: cornflowerblue;
+  background-image: url("../img/fondo\ compu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 h1 {
   display: flex;
