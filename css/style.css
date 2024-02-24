@@ -1,15 +1,34 @@
 body {
   background-color: cornflowerblue;
 }
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #929292a2;
+  color: aliceblue;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(196, 6, 34, 0.694);
+}
 
 .contenedor {
   width: 80%;
   height: 100%;
   padding: 25px;
-  background-color: #452871;
-  font-family: monospace;
-  font-size: medium;
-  color: #ffff;
+  background: url("../img/fondocompu2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+  color: #fff;
   border-style: double;
-  border-color: coral;
+  border-radius: 25px;
+}
+
+.contenedor p {
+  background-color: #3123236a;
 }
